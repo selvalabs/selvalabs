@@ -4,7 +4,7 @@
 
 # Carlos Selva · SelvaLabs
 
-**Desenvolvedor Full Stack** construindo produtos digitais com **IA aplicada**, **LLMs locais**, **sistemas de agentes**, **APIs**, **integrações**, **infraestrutura** e **documentação técnica**.
+**Desenvolvedor Full Stack** construindo produtos digitais com **IA aplicada**, **LLMs locais**, **sistemas locais de IA**, **sistemas de agentes**, **APIs**, **integrações**, **infraestrutura** e **documentação técnica**.
 
 Atualmente foco em transformar problemas reais em aplicações completas: do levantamento de requisitos e arquitetura até frontend, backend, banco de dados, automações, deploy, validação local e documentação.
 
@@ -13,15 +13,15 @@ Atualmente foco em transformar problemas reais em aplicações completas: do lev
 ## Foco atual
 
 - **Produtos com IA**: RAG, embeddings, LLMs locais e modelos via API.
-- **Sistemas locais de IA**: aplicações local-first, privacidade, Ollama, Gemma e execução em ambiente próprio.
-- **Sistemas de agentes**: agentes, ferramentas, workflows, integrações, memória, gateways e automações orientadas por IA.
+- **Sistemas locais de IA**: aplicações local-first, privacidade, Ollama, Gemma, execução local e ambientes próprios.
+- **Sistemas de agentes**: agentes, ferramentas, workflows, integrações, memória, gateways, automações e orquestração orientada por IA.
 - **Full Stack**: React, TypeScript, Python, Node.js, FastAPI, APIs REST e interfaces para produtos digitais.
-- **Dados e infraestrutura**: PostgreSQL, Supabase, SQLite, Docker, Linux, VPS, GitHub Actions e operação de serviços.
+- **Dados e infraestrutura**: PostgreSQL, Supabase, SQLite, SQLAlchemy, Alembic, Docker, Linux, VPS, GitHub Actions e operação de serviços.
 - **Documentação técnica**: arquitetura, trade-offs, setup local, validação, limitações, roadmap e runbooks.
 
 ---
 
-## Projetos em destaque
+## Projetos públicos em destaque
 
 ### [SoberanIA Labs Local RAG](https://github.com/selvalabs/sialabs-local-rag)
 
@@ -35,7 +35,7 @@ Aplicação **local-first** de Retrieval-Augmented Generation para consulta priv
 
 Sistema público e independente para acompanhar avisos de desligamentos programados da Celesc e gerar alertas por endereço, com scraper, parser, matching textual, banco de dados, painel admin, worker diário, Docker e CI.
 
-**Demonstra:** backend Python/FastAPI, produto orientado a problema real, automação, scraping, privacidade, banco de dados, operação e documentação.
+**Demonstra:** backend Python/FastAPI, SQLAlchemy, Alembic, produto orientado a problema real, automação, scraping, privacidade, banco de dados, operação e documentação.
 
 ---
 
@@ -44,6 +44,20 @@ Sistema público e independente para acompanhar avisos de desligamentos programa
 API em FastAPI para cálculo estruturado de mapa astrológico a partir de dados de nascimento, usando Pydantic, Flatlib, Swiss Ephemeris, geocoding, timezone, Docker e testes automatizados.
 
 **Demonstra:** design de API, backend especializado, resposta JSON estruturada, separação de responsabilidades, integração externa, Docker e arquitetura reutilizável.
+
+---
+
+## Laboratórios e frentes em evolução
+
+Além dos repositórios públicos acima, mantenho laboratórios privados e bases de trabalho em evolução para organizar produtos reais, estudos e experimentos técnicos. Nem todo projeto entra público de imediato: alguns envolvem clientes, credenciais, dados operacionais ou arquitetura ainda em consolidação.
+
+Frentes que estão sendo organizadas para virar cases públicos:
+
+- **AI Agent Engineering**: agentes, tools, memória, gateways, workflows, observabilidade, deploy e operação.
+- **Local AI Systems**: RAG, LLMs locais, embeddings, pipelines locais, privacidade e execução em máquina própria.
+- **Voice & Automation Engines**: automações com áudio, processamento local, presets, filas, notificações e entrega de arquivos.
+- **Produtos digitais e landing pages**: interfaces, páginas de conversão, design system, responsividade, performance e deploy.
+- **Base de estudos ADS**: fundamentos de engenharia de software, requisitos, arquitetura, colaboração, HTML, CSS, Git e documentação.
 
 ---
 
@@ -62,6 +76,9 @@ API em FastAPI para cálculo estruturado de mapa astrológico a partir de dados 
 ![Python](https://img.shields.io/badge/Python-1F2937?style=for-the-badge&logo=python&logoColor=3776AB)
 ![Node.js](https://img.shields.io/badge/Node.js-1F2937?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
 ![FastAPI](https://img.shields.io/badge/FastAPI-1F2937?style=for-the-badge&logo=fastapi&logoColor=009688)
+![Pydantic](https://img.shields.io/badge/Pydantic-1F2937?style=for-the-badge&logo=pydantic&logoColor=E92063)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1F2937?style=for-the-badge&logo=sqlalchemy&logoColor=D71F00)
+![Alembic](https://img.shields.io/badge/Alembic-1F2937?style=for-the-badge&logo=python&logoColor=3776AB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F2937?style=for-the-badge&logo=postgresql&logoColor=4169E1)
 ![Supabase](https://img.shields.io/badge/Supabase-1F2937?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
 ![SQLite](https://img.shields.io/badge/SQLite-1F2937?style=for-the-badge&logo=sqlite&logoColor=003B57)
@@ -73,6 +90,8 @@ API em FastAPI para cálculo estruturado de mapa astrológico a partir de dados 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1F2937?style=for-the-badge&logo=githubactions&logoColor=2088FF)
 ![Ollama](https://img.shields.io/badge/Ollama-1F2937?style=for-the-badge&logo=ollama&logoColor=FFFFFF)
 ![OpenAI](https://img.shields.io/badge/OpenAI-1F2937?style=for-the-badge&logo=openai&logoColor=FFFFFF)
+![RAG](https://img.shields.io/badge/RAG-1F2937?style=for-the-badge&logo=databricks&logoColor=FF3621)
+![Local LLMs](https://img.shields.io/badge/Local_LLMs-1F2937?style=for-the-badge&logo=ollama&logoColor=FFFFFF)
 
 ---
 
@@ -83,7 +102,7 @@ API em FastAPI para cálculo estruturado de mapa astrológico a partir de dados 
 - Desenvolvo frontend, backend, APIs e automações com foco em produto.
 - Uso IA tanto como funcionalidade final quanto como parte do processo de desenvolvimento.
 - Documento decisões técnicas, trade-offs, setup, validações e próximos passos.
-- Busco soluções que sejam úteis, explicáveis, testáveis e preparadas para evolução.
+- Busco soluções úteis, explicáveis, testáveis e preparadas para evolução.
 
 ---
 
