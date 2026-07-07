@@ -1,0 +1,82 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SelvaLabs Profile Hero</title>
+  <desc id="desc">Banner for Carlos Selva / SelvaLabs profile README about full stack development, AI products, local LLMs, agent systems, APIs and infrastructure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.42" stop-color="#0B1E33"/>
+      <stop offset="1" stop-color="#11102A"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="146" y1="51" x2="805" y2="303" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7CF7D4"/>
+      <stop offset="0.48" stop-color="#70A7FF"/>
+      <stop offset="1" stop-color="#B58CFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="788" y1="74" x2="1103" y2="285" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F2C94C"/>
+      <stop offset="0.52" stop-color="#7CF7D4"/>
+      <stop offset="1" stop-color="#70A7FF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.45 0 0 0 0 0.95 0 0 0 0 1 0 0 0 0.55 0" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+
+  <circle cx="1002" cy="82" r="178" fill="#7CF7D4" fill-opacity="0.06"/>
+  <circle cx="1007" cy="83" r="92" fill="#B58CFF" fill-opacity="0.08"/>
+  <circle cx="191" cy="295" r="174" fill="#70A7FF" fill-opacity="0.06"/>
+
+  <g opacity="0.9" filter="url(#glow)">
+    <path d="M816 86C866 39 956 39 1006 86C1055 132 1054 207 1005 253C955 300 866 300 816 253C766 207 767 132 816 86Z" stroke="url(#accent)" stroke-width="3"/>
+    <path d="M803 170H1020" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.55"/>
+    <path d="M912 61V278" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.55"/>
+    <circle cx="912" cy="170" r="37" fill="#07111F" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="803" cy="170" r="10" fill="#7CF7D4"/>
+    <circle cx="1020" cy="170" r="10" fill="#70A7FF"/>
+    <circle cx="912" cy="61" r="10" fill="#F2C94C"/>
+    <circle cx="912" cy="278" r="10" fill="#B58CFF"/>
+    <path d="M912 170L803 170M912 170L1020 170M912 170L912 61M912 170L912 278" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.5"/>
+  </g>
+
+  <g opacity="0.72">
+    <rect x="78" y="52" width="64" height="64" rx="18" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <path d="M96 94C109 101 126 97 132 83C123 85 111 82 106 71C96 76 91 87 96 94Z" fill="url(#primary)"/>
+    <path d="M105 99C112 88 126 83 137 85C131 99 117 106 105 99Z" fill="#7CF7D4" fill-opacity="0.75"/>
+  </g>
+
+  <text x="78" y="155" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.6">Carlos Selva</text>
+  <text x="78" y="198" fill="url(#primary)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">SelvaLabs · AI Product Engineering</text>
+  <text x="78" y="238" fill="#DDEBFF" fill-opacity="0.9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">Full Stack · Local LLMs · RAG · Agent Systems · APIs · Docker · VPS</text>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+    <rect x="78" y="268" width="88" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="100" y="291" fill="#FFFFFF">React</text>
+    <rect x="178" y="268" width="112" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="199" y="291" fill="#FFFFFF">TypeScript</text>
+    <rect x="302" y="268" width="93" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="324" y="291" fill="#FFFFFF">Python</text>
+    <rect x="407" y="268" width="92" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="431" y="291" fill="#FFFFFF">Node.js</text>
+    <rect x="511" y="268" width="91" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="534" y="291" fill="#FFFFFF">FastAPI</text>
+    <rect x="614" y="268" width="88" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.14"/>
+    <text x="636" y="291" fill="#FFFFFF">Docker</text>
+  </g>
+
+  <g opacity="0.24">
+    <path d="M1084 322H1170" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M1116 302H1170" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M1045 282H1170" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+</svg>
