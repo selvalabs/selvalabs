@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/assets/selvalabs-profile-hero.svg" alt="Carlos Selva / SelvaLabs — Full Stack, AI Products, Local LLMs, Agent Systems, APIs and Infrastructure" width="100%" />
+  <img src="docs/assets/selvalabs-profile-hero.svg" alt="Carlos Silva / SelvaLabs — Full Stack, AI Products, Local LLMs, Agent Systems, APIs and Infrastructure" width="100%" />
 </p>
 
-# Carlos Selva · SelvaLabs
+# Carlos Silva · SelvaLabs
 
 **Desenvolvedor Full Stack** construindo produtos digitais com **IA aplicada**, **LLMs locais**, **sistemas locais de IA**, **sistemas de agentes**, **APIs**, **integrações**, **infraestrutura** e **documentação técnica**.
 
@@ -49,7 +49,7 @@ API em FastAPI para cálculo estruturado de mapa astrológico a partir de dados 
 
 ## Laboratórios e frentes em evolução
 
-Além dos repositórios públicos acima, mantenho laboratórios privados e bases de trabalho em evolução para organizar produtos reais, estudos e experimentos técnicos. Nem todo projeto entra público de imediato: alguns envolvem clientes, credenciais, dados operacionais ou arquitetura ainda em consolidação.
+Além dos repositórios públicos acima, mantenho laboratórios privados e bases de trabalho em evolução para organizar produtos reais, estudos e experimentos técnicos. Nem todo projeto entra público de imediato: alguns envolvem clientes, dados operacionais, marcas comerciais ou arquitetura ainda em consolidação.
 
 Frentes que estão sendo organizadas para virar cases públicos:
 
