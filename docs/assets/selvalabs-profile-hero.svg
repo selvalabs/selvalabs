@@ -1,6 +1,6 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">SelvaLabs Tech Profile Hero</title>
-  <desc id="desc">Tech banner for Carlos Silva / SelvaLabs focused on full stack engineering, local AI systems, local LLMs, RAG, agent systems, APIs and infrastructure.</desc>
+  <desc id="desc">Tech banner for Carlos Silva / SelvaLabs focused on full stack engineering, local AI systems, visual web tools, local LLMs, RAG, agent systems, APIs and infrastructure.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#050816"/><stop offset="0.5" stop-color="#071A2F"/><stop offset="1" stop-color="#120A2A"/></linearGradient>
     <linearGradient id="neon" x1="70" y1="70" x2="1080" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#00F5D4"/><stop offset="0.5" stop-color="#38BDF8"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
@@ -14,7 +14,7 @@
   <text x="74" y="112" fill="#DDF7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="2.5">SELVALABS</text>
   <text x="74" y="178" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="60" font-weight="850" letter-spacing="-2.2">Carlos Silva</text>
   <text x="74" y="225" fill="url(#neon)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="780">Full Stack · AI Product Engineering</text>
-  <text x="74" y="268" fill="#D8E7F5" fill-opacity="0.92" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="520">Local LLMs · RAG · Agent Systems · APIs · Docker · VPS</text>
+  <text x="74" y="268" fill="#D8E7F5" fill-opacity="0.92" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="520">Local LLMs · RAG · Visual Web Tools · APIs · Docker · VPS</text>
   <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">
     <rect x="74" y="307" width="96" height="34" rx="17" fill="#071A2F" stroke="#00F5D4" stroke-opacity="0.5"/><text x="100" y="330" fill="#FFFFFF">Python</text>
     <rect x="182" y="307" width="94" height="34" rx="17" fill="#071A2F" stroke="#38BDF8" stroke-opacity="0.5"/><text x="207" y="330" fill="#FFFFFF">Node.js</text>
@@ -27,14 +27,14 @@
     <rect width="466" height="44" rx="24" fill="#FFFFFF" fill-opacity="0.06"/>
     <circle cx="28" cy="22" r="6" fill="#FF5F57"/><circle cx="50" cy="22" r="6" fill="#FFBD2E"/><circle cx="72" cy="22" r="6" fill="#28C840"/>
     <g font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="700">
-      <text x="26" y="78" fill="#00F5D4">$</text><text x="48" y="78" fill="#D7F3FF">build local-ai-system</text>
-      <text x="26" y="112" fill="#8BE9FD">api</text><text x="82" y="112" fill="#FFFFFF">FastAPI + Pydantic</text>
-      <text x="26" y="146" fill="#8BE9FD">data</text><text x="82" y="146" fill="#FFFFFF">PostgreSQL · SQLite</text>
-      <text x="26" y="180" fill="#8BE9FD">orm</text><text x="82" y="180" fill="#FFFFFF">SQLAlchemy · Alembic</text>
-      <text x="26" y="214" fill="#8BE9FD">ai</text><text x="82" y="214" fill="#FFFFFF">Ollama · Gemma · RAG</text>
+      <text x="26" y="78" fill="#00F5D4">$</text><text x="48" y="78" fill="#D7F3FF">build webatelier-canvas</text>
+      <text x="26" y="112" fill="#8BE9FD">web</text><text x="82" y="112" fill="#FFFFFF">Playwright + Chromium</text>
+      <text x="26" y="146" fill="#8BE9FD">ui</text><text x="82" y="146" fill="#FFFFFF">TypeScript runtime</text>
+      <text x="26" y="180" fill="#8BE9FD">api</text><text x="82" y="180" fill="#FFFFFF">FastAPI + Pydantic</text>
+      <text x="26" y="214" fill="#8BE9FD">ai</text><text x="82" y="214" fill="#FFFFFF">Ollama · Gemma</text>
       <text x="26" y="248" fill="#8BE9FD">ops</text><text x="82" y="248" fill="#FFFFFF">Docker · Linux · VPS</text>
     </g>
     <g filter="url(#glow)"><circle cx="372" cy="98" r="10" fill="#00F5D4"/><circle cx="414" cy="150" r="10" fill="#38BDF8"/><circle cx="350" cy="204" r="10" fill="#A78BFA"/><path d="M372 98L414 150L350 204L372 98" stroke="url(#neon)" stroke-width="2"/></g>
   </g>
-  <text x="52" y="390" fill="#FFFFFF" fill-opacity="0.22" font-family="JetBrains Mono, Consolas, monospace" font-size="13">pipeline: docs → chunks → embeddings → retrieval → answer · agent-ready architecture</text>
+  <text x="52" y="390" fill="#FFFFFF" fill-opacity="0.22" font-family="JetBrains Mono, Consolas, monospace" font-size="13">pipeline: local page → chromium → visual runtime → approved patch → export package</text>
 </svg>
