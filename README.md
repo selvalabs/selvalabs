@@ -4,7 +4,7 @@
 
 # Carlos Silva · SelvaLabs
 
-**Desenvolvedor Full Stack** construindo produtos digitais com **IA aplicada**, **LLMs locais**, **sistemas locais de IA**, **sistemas de agentes**, **APIs**, **integrações**, **infraestrutura** e **documentação técnica**.
+**Desenvolvedor Full Stack** construindo produtos digitais com **IA aplicada**, **LLMs locais**, **sistemas locais de IA**, **sistemas de agentes**, **APIs**, **integrações**, **infraestrutura**, **ferramentas visuais para web** e **documentação técnica**.
 
 Atualmente foco em transformar problemas reais em aplicações completas: do levantamento de requisitos e arquitetura até frontend, backend, banco de dados, automações, deploy, validação local e documentação.
 
@@ -12,9 +12,10 @@ Atualmente foco em transformar problemas reais em aplicações completas: do lev
 
 ## Foco atual
 
-- **Produtos com IA**: RAG, embeddings, LLMs locais e modelos via API.
+- **Produtos com IA**: RAG, embeddings, LLMs locais, modelos via API e workflows com aprovação humana.
 - **Sistemas locais de IA**: aplicações local-first, privacidade, Ollama, Gemma, execução local e ambientes próprios.
 - **Sistemas de agentes**: agentes, ferramentas, workflows, integrações, memória, gateways, automações e orquestração orientada por IA.
+- **Ferramentas visuais para web**: editores locais, inspeção de CSS, Playwright, runtime injetado, exportação e revisão de alterações.
 - **Full Stack**: React, TypeScript, Python, Node.js, FastAPI, APIs REST e interfaces para produtos digitais.
 - **Dados e infraestrutura**: PostgreSQL, Supabase, SQLite, SQLAlchemy, Alembic, Docker, Linux, VPS, GitHub Actions e operação de serviços.
 - **Documentação técnica**: arquitetura, trade-offs, setup local, validação, limitações, roadmap e runbooks.
@@ -22,6 +23,14 @@ Atualmente foco em transformar problemas reais em aplicações completas: do lev
 ---
 
 ## Projetos públicos em destaque
+
+### [WebAtelier Canvas](https://github.com/selvalabs/webatelier-canvas)
+
+Editor visual **local-first** para páginas web reais. Abre URLs locais em Chromium via Playwright, injeta uma camada visual de edição, permite inspecionar e ajustar elementos, salvar patches, usar fluxos opcionais com Ollama/Gemma e exportar pacotes revisáveis sem transformar o projeto em um serviço remoto.
+
+**Demonstra:** produto full stack local-first, Python, FastAPI, Playwright, TypeScript, runtime de edição visual, segurança por loopback, exportação estruturada, IA assistiva com aprovação e documentação técnica de produto.
+
+---
 
 ### [SoberanIA Labs Local RAG](https://github.com/selvalabs/sialabs-local-rag)
 
@@ -51,7 +60,7 @@ API em FastAPI para cálculo estruturado de mapa astrológico a partir de dados 
 
 Além dos repositórios públicos acima, mantenho laboratórios privados e bases de trabalho em evolução para organizar produtos reais, estudos e experimentos técnicos. Nem todo projeto entra público de imediato: alguns envolvem clientes, dados operacionais, marcas comerciais ou arquitetura ainda em consolidação.
 
-Frentes que estão sendo organizadas para virar cases públicos:
+Frentes que seguem sendo organizadas para virar cases públicos:
 
 - **AI Agent Engineering**: agentes, tools, memória, gateways, workflows, observabilidade, deploy e operação.
 - **Local AI Systems**: RAG, LLMs locais, embeddings, pipelines locais, privacidade e execução em máquina própria.
@@ -111,6 +120,7 @@ Frentes que estão sendo organizadas para virar cases públicos:
 - **AI Agent Engineering**: padrões para agentes, ferramentas, memória, gateways, observabilidade e deploy.
 - **Local AI Systems**: RAG, LLMs locais, privacidade, execução em máquina própria e integração com aplicações.
 - **AI Product Engineering**: produtos digitais que incorporam IA de forma útil na arquitetura e na experiência do usuário.
+- **Web Product Engineering**: ferramentas visuais, landing pages, editores, CSS, Playwright, exportação e validação local.
 - **ADS e engenharia de software**: documentação de estudos, fundamentos, requisitos, arquitetura e boas práticas.
 
 ---
