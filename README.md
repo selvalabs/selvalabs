@@ -91,7 +91,7 @@ Frentes que seguem sendo organizadas para virar cases públicos:
 ![FastAPI](https://img.shields.io/badge/FastAPI-1F2937?style=for-the-badge&logo=fastapi&logoColor=009688)
 ![Pydantic](https://img.shields.io/badge/Pydantic-1F2937?style=for-the-badge&logo=pydantic&logoColor=E92063)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1F2937?style=for-the-badge&logo=sqlalchemy&logoColor=D71F00)
-![Alembic](https://img.shields.io/badge/Alembic-1F2937?style=for-the-badge&logo=python&logoColor=3778AB)
+![Alembic](https://img.shields.io/badge/Alembic-1F2937?style=for-the-badge&logo=python&logoColor=3776AB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1F2937?style=for-the-badge&logo=postgresql&logoColor=4169E1)
 ![Supabase](https://img.shields.io/badge/Supabase-1F2937?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
 ![SQLite](https://img.shields.io/badge/SQLite-1F2937?style=for-the-badge&logo=sqlite&logoColor=003B57)
