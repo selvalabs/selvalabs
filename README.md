@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="docs/assets/selvalabs-profile-hero.svg" alt="Carlos Silva / SelvaLabs — Full Stack, AI Products, Local LLMs, Agent Systems, APIs and Infrastructure" width="100%" />
+  <img src="docs/assets/selvalabs-profile-hero.svg" alt="Carlos Silva / SelvaLabs — Local AI, RAG, Full Stack, Agent Systems, APIs and Infrastructure" width="100%" />
 </p>
 
 # Carlos Silva · SelvaLabs
 
-**Desenvolvedor Full Stack** construindo produtos digitais com **IA aplicada**, **LLMs locais**, **sistemas locais de IA**, **sistemas de agentes**, **APIs**, **integrações**, **infraestrutura**, **ferramentas visuais para web** e **documentação técnica**.
+**Desenvolvedor Full Stack** construindo produtos digitais com **IA local**, **RAG**, **LLMs locais**, **IA aplicada**, **sistemas de agentes**, **APIs**, **integrações**, **infraestrutura**, **ferramentas visuais para web** e **documentação técnica**.
 
 Atualmente foco em transformar problemas reais em aplicações completas: do levantamento de requisitos e arquitetura até frontend, backend, banco de dados, automações, deploy, validação local e documentação.
 
@@ -12,31 +12,35 @@ Atualmente foco em transformar problemas reais em aplicações completas: do lev
 
 ## Foco atual
 
-- **Produtos com IA**: RAG, embeddings, LLMs locais, modelos via API e workflows com aprovação humana.
-- **Sistemas locais de IA**: aplicações local-first, privacidade, Ollama, Gemma, execução local e ambientes próprios.
+- **Sistemas locais de IA**: aplicações local-first, privacidade, RAG, embeddings, Ollama, Gemma, execução local e ambientes próprios.
+- **Produtos com IA**: LLMs locais, modelos via API, respostas fundamentadas em fontes e workflows com aprovação humana.
 - **Sistemas de agentes**: agentes, ferramentas, workflows, integrações, memória, gateways, automações e orquestração orientada por IA.
-- **Ferramentas visuais para web**: editores locais, inspeção de CSS, Playwright, runtime injetado, exportação e revisão de alterações.
 - **Full Stack**: React, TypeScript, Python, Node.js, FastAPI, APIs REST e interfaces para produtos digitais.
 - **Dados e infraestrutura**: PostgreSQL, Supabase, SQLite, SQLAlchemy, Alembic, Docker, Linux, VPS, GitHub Actions e operação de serviços.
+- **Ferramentas visuais para web**: editores locais, inspeção de CSS, Playwright, runtime injetado, exportação e revisão de alterações.
 - **Documentação técnica**: arquitetura, trade-offs, setup local, validação, limitações, roadmap e runbooks.
 
 ---
 
-## Projetos públicos em destaque
+## Projeto principal
+
+### [SoberanIA Labs Local RAG](https://github.com/selvalabs/sialabs-local-rag)
+
+Aplicação **local-first** de Retrieval-Augmented Generation para consulta privada a documentos, usando React, TypeScript, FastAPI, SQLite, Ollama/Gemma, EmbeddingGemma, Docker Compose e validação local.
+
+**Projeto principal do portfólio:** reúne produto full stack, IA local, ingestão e fragmentação de documentos, embeddings, recuperação por similaridade, respostas fundamentadas em fontes, configuração de runtime, testes, segurança e experiência de instalação local no Windows.
+
+**Demonstra:** IA aplicada, RAG, LLMs locais, embeddings, busca por similaridade, respostas com fontes, arquitetura full stack, testes e documentação técnica.
+
+---
+
+## Outros projetos públicos em destaque
 
 ### [WebAtelier Canvas](https://github.com/selvalabs/webatelier-canvas)
 
 Editor visual **local-first** para páginas web reais. Abre URLs locais em Chromium via Playwright, injeta uma camada visual de edição, permite inspecionar e ajustar elementos, salvar patches, usar fluxos opcionais com Ollama/Gemma e exportar pacotes revisáveis sem transformar o projeto em um serviço remoto.
 
 **Demonstra:** produto full stack local-first, Python, FastAPI, Playwright, TypeScript, runtime de edição visual, segurança por loopback, exportação estruturada, IA assistiva com aprovação e documentação técnica de produto.
-
----
-
-### [SoberanIA Labs Local RAG](https://github.com/selvalabs/sialabs-local-rag)
-
-Aplicação **local-first** de Retrieval-Augmented Generation para consulta privada a documentos, usando React, TypeScript, FastAPI, SQLite, Ollama/Gemma, EmbeddingGemma, Docker Compose e validação local.
-
-**Demonstra:** IA aplicada, RAG, LLMs locais, embeddings, busca por similaridade, respostas com fontes, arquitetura full stack, testes e documentação técnica.
 
 ---
 
@@ -62,8 +66,8 @@ Além dos repositórios públicos acima, mantenho laboratórios privados e bases
 
 Frentes que seguem sendo organizadas para virar cases públicos:
 
-- **AI Agent Engineering**: agentes, tools, memória, gateways, workflows, observabilidade, deploy e operação.
 - **Local AI Systems**: RAG, LLMs locais, embeddings, pipelines locais, privacidade e execução em máquina própria.
+- **AI Agent Engineering**: agentes, tools, memória, gateways, workflows, observabilidade, deploy e operação.
 - **Voice & Automation Engines**: automações com áudio, processamento local, presets, filas, notificações e entrega de arquivos.
 - **Produtos digitais e landing pages**: interfaces, páginas de conversão, design system, responsividade, performance e deploy.
 - **Base de estudos ADS**: fundamentos de engenharia de software, requisitos, arquitetura, colaboração, HTML, CSS, Git e documentação.
@@ -117,9 +121,9 @@ Frentes que seguem sendo organizadas para virar cases públicos:
 
 ## Trilhas em evolução
 
-- **AI Agent Engineering**: padrões para agentes, ferramentas, memória, gateways, observabilidade e deploy.
 - **Local AI Systems**: RAG, LLMs locais, privacidade, execução em máquina própria e integração com aplicações.
 - **AI Product Engineering**: produtos digitais que incorporam IA de forma útil na arquitetura e na experiência do usuário.
+- **AI Agent Engineering**: padrões para agentes, ferramentas, memória, gateways, observabilidade e deploy.
 - **Web Product Engineering**: ferramentas visuais, landing pages, editores, CSS, Playwright, exportação e validação local.
 - **ADS e engenharia de software**: documentação de estudos, fundamentos, requisitos, arquitetura e boas práticas.
 
